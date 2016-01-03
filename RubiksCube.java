@@ -6,6 +6,7 @@ import java.net.URL;
 import java.net.MalformedURLException;
 import java.io.*;
 
+
 @SuppressWarnings("serial")
 public final class RubiksCube extends Applet implements Runnable, MouseListener, MouseMotionListener {
 	private final Hashtable config = new Hashtable();
